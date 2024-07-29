@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #f7f7f7, #ffffff);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #hands {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  #hands button {
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 0px 2px;
+  }
+  
+  #hands button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #resultsdisplay {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #666;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .greentext {
+    color: #2ecc71;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .redtext {
+    color: #e74c3c;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #reset {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #reset:hover {
+    background-color: #3e8e41;
+  }
+  
+  #playerdisplay,
+  #computerdisplay {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #666;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #playerscore,
+  #computerscore {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #666;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
